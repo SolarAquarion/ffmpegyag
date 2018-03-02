@@ -53,15 +53,8 @@ Creating a source package for redistribution
 ```sh
 make tgz
 ```
-Creating a debian binary package for redistribution
-(configure with prefix /usr to prevent lintian errors)
-(run as root for correct ownership of files)
-```sh
-./configure --prefix=/usr
-# OR (if you want to use clang instead of gcc):
-./configure --config-clang --prefix=/usr
-sudo make deb
-```
+Creating a debian binary package for redistribut
+
 
 ## Windows 7
 
